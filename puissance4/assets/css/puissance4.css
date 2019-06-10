@@ -1,0 +1,46 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+div.puissance4{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+div.puissance4 .user{
+    font-size: 18px;
+    color: #263238;
+}
+div.puissance4 table {
+    border: 3px blue outset;
+    background-color: blue;
+}
+div.puissance4 table td {
+    width: 2cm;
+    height: 2cm;
+    margin: 0px;
+    padding: 0px;
+    border: 2px blue inset;
+    border-radius: 2cm;
+    background-color: white;
+    cursor: pointer;
+}
+div.puissance4 p.player1 {
+    color: red;
+}
+div.puissance4 p.player2 {
+    color: yellow;
+    background-color: black;
+}
+div.puissance4 td.player1 {
+    background-color: red;
+}
+div.puissance4 td.player2 {
+    background-color: yellow;
+}
